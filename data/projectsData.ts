@@ -15,12 +15,19 @@ const projectsData: Project[] = [
     href: 'https://www.google.com',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'A Social Network',
+    description: `What if you could connect with your friends and family? Share your thoughts,
+    photos, videos and more. Facebook has many features to help you stay connected
+    with the people you care about.`,
+    imgSrc: '/static/images/x.jpg',
+    href: 'https://www.x.com/_manadrila/',
+  },
+  {
+    title: 'A Video Sharing Platform',
+    description: `What if you could upload and share your videos with the world? YouTube has
+    many features to help you discover, watch and share videos.`,
+    imgSrc: '/static/images/github.png',
+    href: 'https://www.github.com/Lumumba11/',
   },
 ]
 

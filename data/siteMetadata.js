@@ -1,27 +1,27 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: "TechWizard Blog",
+  author: 'LumumbaDev',
+  headerTitle: 'TechWizard Blog',
+  description: 'A personal blog on cybersecurity, Linux, and tech by TechWizard',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
-  socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  x: 'https://twitter.com/x',
+  siteRepo: 'https://github.com/Lumumba11/blog-website',
+  siteLogo: `${process.env.BASE_PATH || ''}/static/images/tech.png`,
+  socialBanner: `${process.env.BASE_PATH || ''}/static/images/x.png`,
+  mastodon: '',
+  email: 'nwizstock@gmail.com',
+  github: 'https://github.com/Lumumba11/',
+  x: 'https://x.com/_manadrila/',
   // twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
-  medium: 'https://medium.com',
-  bluesky: 'https://bsky.app/',
+  facebook: 'https://facebook.com/Lumumba Alex/',
+  youtube: '',
+  linkedin: 'https://www.linkedin.com/Lumumba-alex/',
+  threads: '',
+  instagram: 'https://www.instagram.com/_Techwizard_/',
+  medium: '',
+  bluesky: '',
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
@@ -100,4 +100,4 @@ const siteMetadata = {
   },
 }
 
-module.exports = siteMetadata
+export default siteMetadata
