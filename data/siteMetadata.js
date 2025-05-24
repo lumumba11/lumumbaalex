@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: "TechWizard Blog",
+  title: 'TechWizard Blog',
   author: 'LumumbaDev',
   headerTitle: 'TechWizard Blog',
   description: 'A personal blog on cybersecurity, Linux, and tech by TechWizard',
