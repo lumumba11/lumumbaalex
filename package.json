@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d out",
     "export": "cross-env INIT_CWD=$PWD next export",
     "lint": "next lint --fix --dir pages --dir app --dir components --dir lib --dir layouts --dir scripts",
+    "format": "prettier --write .",
     "prepare": "husky"
   },
   "dependencies": {
@@ -67,7 +68,7 @@
     "globals": "^15.12.0",
     "husky": "^9.0.0",
     "lint-staged": "^13.0.0",
-    "prettier": "^3.0.0",
+    "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5.1.3"
   },
